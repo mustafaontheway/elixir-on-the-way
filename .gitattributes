@@ -1,0 +1,16 @@
+# Tüm metin dosyaları için otomatik satır sonu yönetimi
+* text=auto
+
+# Elixir dosyaları için UTF-8 ve LF satır sonu zorunlu
+*.ex  text eol=lf
+*.exs text eol=lf
+
+# JSON, config vb dosyalar için LF
+*.json text eol=lf
+*.config text eol=lf
+
+# Binary dosyaları otomatik olarak işleme
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
