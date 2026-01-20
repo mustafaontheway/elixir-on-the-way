@@ -1,16 +1,1 @@
-
-* text=auto
-
-
-*.ex  text eol=lf
-*.exs text eol=lf
-
-
-*.json text eol=lf
-*.config text eol=lf
-
-
-*.png binary
-*.jpg binary
-*.gif binary
-*.ico binary
+*.ex linguist-language=Elixir
